@@ -9,6 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ExApp">
+        <activity android:name=".UpdateEnrollment" android:parentActivityName=".viewEnrollment"></activity>
+        <activity
+            android:name=".viewEnrollment"
+            android:label="My Enrollments" />
+        <activity
+            android:name=".AddEnrollment"
+            android:label="New Enrollment"
+            android:parentActivityName=".viewEnrollment" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">ExApp</string>
+    <string name="e_add_button">Enroll</string>
+    <string name="enter_year">Year</string>
+    <string name="enter_semester">Semester</string>
+    <string name="enter_module">Module</string>
+    <string name="e_update_button">Update</string>
+    <string name="e_delete_button">Delete</string>
+    <string name="e_delete_all">Delete All</string>
+    <string name="e_no_data">No Enrollments.Add an enrollment using below + icon</string>
 </resources>
