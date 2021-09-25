@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ExApp</string>
+    <string name="app_name">E X A P P</string>
     <string name="e_add_button">Enroll</string>
     <string name="enter_year">Year</string>
     <string name="enter_semester">Semester</string>
@@ -8,4 +8,17 @@
     <string name="e_delete_button">Delete</string>
     <string name="e_delete_all">Delete All</string>
     <string name="e_no_data">No Enrollments.Add an enrollment using below + icon</string>
+    <string name="enter_s_email_address">E-mail</string>
+    <string name="enter_s_user_name">Username</string>
+    <string name="enter_s_password">Password</string>
+    <string name="new_s_confirm_password">Confirm Password</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="home_student_button">STUDENT</string>
+    <string name="home_admin_button">ADMIN</string>
+    <string name="home_lecturer_button">LECTURER</string>
+    <string name="home_textview">E X A P P</string>
+    <string name="home_welcome_textview">W E L C O M E</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="my_enrollments_button">My Enrollments</string>
+    <string name="my_examination_button">My Examinations</string>
 </resources>

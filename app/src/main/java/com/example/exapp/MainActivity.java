@@ -8,25 +8,57 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    Button switchToSecondActivity;
+    Button switchToStudentLogin;
+    Button switchToAdminLogin;
+    Button switchToLecturerLogin;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        switchToSecondActivity = findViewById(R.id.tempButton);
-        switchToSecondActivity.setOnClickListener(new View.OnClickListener() {
+        switchToStudentLogin = findViewById(R.id.home_student_button);
+        switchToStudentLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                switchActivities();
+                switchStudent();
             }
         });
+        switchToAdminLogin = findViewById(R.id.home_admin_button);
+        switchToAdminLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                switchAdmin();
+            }
+        });
+        switchToLecturerLogin = findViewById(R.id.home_lecturer_button);
+        switchToLecturerLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                switchLecturer();
+            }
+        });
+
     }
 
     //    test comment
-    private void switchActivities() {
-        Intent switchActivityIntent = new Intent(this, viewEnrollment.class);
-        startActivity(switchActivityIntent);
+
+
+    private void switchStudent() {
+        Intent switchStudent = new Intent(this, StudentLogin.class);
+        startActivity(switchStudent);
     }
+
+    private void switchAdmin() {
+        Intent switchAdmin = new Intent(this, StudentRegistration.class);
+        startActivity(switchAdmin);
+    }
+
+    private void switchLecturer() {
+        Intent switchLecturer = new Intent(this, StudentRegistration.class);
+        startActivity(switchLecturer);
+    }
+
+
 }
