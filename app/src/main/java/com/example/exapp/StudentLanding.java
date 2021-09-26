@@ -35,7 +35,7 @@ public class StudentLanding extends AppCompatActivity {
         startActivity(switchEnrollmentIntent);
     }
     private void switchExams() {
-        Intent switchExamsIntent = new Intent(this, viewEnrollment.class);
+        Intent switchExamsIntent = new Intent(this, qMainActivity.class);
         startActivity(switchExamsIntent);
     }
 }

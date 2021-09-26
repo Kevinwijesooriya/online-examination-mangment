@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ExApp">
+        <activity android:name=".QuizActivity"></activity>
+        <activity android:name=".qMainActivity"></activity>
         <activity android:name=".StudentLanding"></activity>
         <activity android:name=".StudentLogin" />
         <activity android:name=".StudentRegistration" />
