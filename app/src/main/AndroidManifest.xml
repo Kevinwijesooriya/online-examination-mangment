@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ExApp">
         <activity
+            android:name=".LectureRegistration"
+            android:exported="true" />
+        <activity
             android:name=".LectureLogin"
             android:exported="true" />
         <activity android:name=".QuizActivity" />
