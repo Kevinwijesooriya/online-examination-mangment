@@ -9,7 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ExApp">
-        <activity android:name=".StudentLanding"></activity>
+        <activity
+            android:name=".AddTimetable"
+            android:label="Add TimeTable"
+            android:parentActivityName=".viewAdmin"
+            android:exported="true" />
+        <activity
+            android:name=".viewAdmin"
+            android:exported="true"
+            android:label="Admin" />
+        <activity
+            android:name=".AdminRegistaration"
+            android:exported="true"
+            android:label="AdminRegistaration" />
+        <activity
+            android:name=".AdminLogin"
+            android:exported="true" />
+        <activity android:name=".StudentLanding" />
         <activity android:name=".StudentLogin" />
         <activity android:name=".StudentRegistration" />
         <activity
