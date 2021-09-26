@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void switchAdmin() {
-        Intent switchAdmin = new Intent(this, StudentRegistration.class);
+        Intent switchAdmin = new Intent(this, AdminLogin.class);
         startActivity(switchAdmin);
     }
 
