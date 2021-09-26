@@ -21,4 +21,6 @@
     <string name="sign_in">SIGN IN</string>
     <string name="my_enrollments_button">My Enrollments</string>
     <string name="my_examination_button">My Examinations</string>
+    <string name="subject">subject</string>
+    <string name="date_and_time">Date and Time</string>
 </resources>
